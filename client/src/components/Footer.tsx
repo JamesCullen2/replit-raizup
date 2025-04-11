@@ -26,6 +26,8 @@ const footerLinkGroups: FooterLinkGroup[] = [
       { label: "Tech Skills Development", href: "#services" },
       { label: "Data Analytics Training", href: "#services" },
       { label: "AI Implementation", href: "#services" },
+      { label: "SME Tech Consulting", href: "#services" },
+      { label: "Business Technology Audits", href: "#services" },
       { label: "Team Upskilling", href: "#services" },
       { label: "Digital Transformation", href: "#services" },
     ],
@@ -69,7 +71,7 @@ export default function Footer() {
               </span>
             </a>
             <p className="text-[#A0AEC0] mb-6">
-              Elevating technical capabilities through expert-led training and development programs.
+              Elevating technical capabilities through expert-led training, consulting, and development services for businesses of all sizes.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-[#A0AEC0] hover:text-white transition-colors">

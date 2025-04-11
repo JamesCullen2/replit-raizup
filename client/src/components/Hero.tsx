@@ -50,7 +50,7 @@ export default function Hero() {
               Elevate Your <span className="gradient-text">Tech, Data & AI</span> Skills
             </h1>
             <p className="text-neutral-600 text-lg mb-8 max-w-md">
-              RaizUp helps individuals and organizations transform their technical capabilities through expert-led training and development programs.
+              RaizUp helps individuals and organizations transform their technical capabilities through expert-led training, consulting, and development services. Specialized solutions for small and medium enterprises.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button asChild className="gradient-bg hover:opacity-90 border-none text-white font-medium py-6 px-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">

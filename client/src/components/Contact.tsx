@@ -196,6 +196,8 @@ export default function Contact() {
                             <SelectItem value="tech-skills">Tech Skills Development</SelectItem>
                             <SelectItem value="data-analytics">Data Analytics Training</SelectItem>
                             <SelectItem value="ai-implementation">AI Implementation</SelectItem>
+                            <SelectItem value="sme-consulting">SME Tech Consulting</SelectItem>
+                            <SelectItem value="tech-audit">Business Technology Audits</SelectItem>
                             <SelectItem value="team-upskilling">Team Upskilling</SelectItem>
                             <SelectItem value="digital-transformation">Digital Transformation</SelectItem>
                             <SelectItem value="leadership-coaching">Tech Leadership Coaching</SelectItem>

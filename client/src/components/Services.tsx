@@ -1,6 +1,6 @@
 import { useRef, useEffect } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
-import { Laptop, PieChart, Brain, Users, GraduationCap, Network } from 'lucide-react';
+import { Laptop, PieChart, Brain, Users, GraduationCap, Network, Building2, Briefcase } from 'lucide-react';
 
 interface ServiceItem {
   icon: React.ReactNode;
@@ -37,28 +37,44 @@ const services: ServiceItem[] = [
     delay: 0.4
   },
   {
+    icon: <Building2 size={24} />,
+    title: "SME Tech Consulting",
+    description: "Tailored technology consulting services to help small and medium-sized enterprises optimize their tech stack and drive business growth.",
+    iconBgColor: "bg-[#FFF4CC]",
+    iconColor: "text-[#FFB800]",
+    delay: 0.1
+  },
+  {
     icon: <Users size={24} />,
     title: "Team Upskilling",
     description: "Custom training programs designed to elevate entire teams with the latest technical skills and best practices.",
     iconBgColor: "bg-primary/10",
     iconColor: "text-primary",
-    delay: 0.1
+    delay: 0.3
+  },
+  {
+    icon: <Briefcase size={24} />,
+    title: "Business Technology Audits",
+    description: "Comprehensive assessment of your current technology infrastructure with actionable recommendations for improvement and cost optimization.",
+    iconBgColor: "bg-[#FFCCD6]", 
+    iconColor: "text-[#FF3366]",
+    delay: 0.5
   },
   {
     icon: <GraduationCap size={24} />,
     title: "Digital Transformation",
     description: "Strategic guidance and training to help organizations navigate successful digital transformation journeys.",
-    iconBgColor: "bg-[#FFCCD6]",
-    iconColor: "text-[#FF3366]",
-    delay: 0.3
+    iconBgColor: "bg-[#CCFBF1]",
+    iconColor: "text-[#00D1B2]",
+    delay: 0.6
   },
   {
     icon: <Network size={24} />,
     title: "Tech Leadership Coaching",
     description: "Develop the specialized skills needed to effectively lead technical teams and drive innovation.",
-    iconBgColor: "bg-[#CCFBF1]",
-    iconColor: "text-[#00D1B2]",
-    delay: 0.5
+    iconBgColor: "bg-[#FFF4CC]",
+    iconColor: "text-[#FFB800]",
+    delay: 0.7
   }
 ];
 
@@ -96,7 +112,7 @@ export default function Services() {
               visible: { opacity: 1, y: 0, transition: { duration: 0.6, delay: 0.2 } }
             }}
           >
-            Comprehensive training and development solutions tailored to elevate your technical capabilities.
+            Comprehensive training, consulting, and development solutions tailored to elevate your technical capabilities and drive business growth.
           </motion.p>
         </div>
         
