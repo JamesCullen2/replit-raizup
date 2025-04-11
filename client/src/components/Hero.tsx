@@ -47,10 +47,10 @@ export default function Hero() {
             variants={fadeInLeft}
           >
             <h1 className="font-heading font-bold text-4xl sm:text-5xl md:text-6xl leading-tight mb-6">
-              Elevate Your <span className="gradient-text">Tech, Data & AI</span> Skills
+              <span className="gradient-text">Tech Solutions</span> That Deliver
             </h1>
             <p className="text-neutral-600 text-lg mb-8 max-w-md">
-              RaizUp helps individuals and organizations transform their technical capabilities through expert-led training, consulting, and development services. Specialized solutions for small and medium enterprises.
+              Expert tech consulting, training, and solutions for businesses of all sizes. We help you make technology work for you, not against you.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button asChild className="gradient-bg hover:opacity-90 border-none text-white font-medium py-6 px-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">
